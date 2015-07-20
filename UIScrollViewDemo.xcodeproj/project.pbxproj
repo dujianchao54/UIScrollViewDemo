@@ -19,6 +19,8 @@
 		BC71439E1B3257150014AEA7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC7143861B3257150014AEA7 /* UIKit.framework */; };
 		BC7143A61B3257150014AEA7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC7143A41B3257150014AEA7 /* InfoPlist.strings */; };
 		BC7143A81B3257160014AEA7 /* UIScrollViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7143A71B3257150014AEA7 /* UIScrollViewDemoTests.m */; };
+		BC7143B21B3257600014AEA7 /* 2-550x309.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC7143B11B3257600014AEA7 /* 2-550x309.jpg */; };
+		BC7143B51B3257790014AEA7 /* KGRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7143B41B3257790014AEA7 /* KGRootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		BC7143A31B3257150014AEA7 /* UIScrollViewDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIScrollViewDemoTests-Info.plist"; sourceTree = "<group>"; };
 		BC7143A51B3257150014AEA7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BC7143A71B3257150014AEA7 /* UIScrollViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIScrollViewDemoTests.m; sourceTree = "<group>"; };
+		BC7143B11B3257600014AEA7 /* 2-550x309.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2-550x309.jpg"; sourceTree = "<group>"; };
+		BC7143B31B3257790014AEA7 /* KGRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGRootViewController.h; sourceTree = "<group>"; };
+		BC7143B41B3257790014AEA7 /* KGRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGRootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +114,9 @@
 			children = (
 				BC7143911B3257150014AEA7 /* KGAppDelegate.h */,
 				BC7143921B3257150014AEA7 /* KGAppDelegate.m */,
+				BC7143B31B3257790014AEA7 /* KGRootViewController.h */,
+				BC7143B41B3257790014AEA7 /* KGRootViewController.m */,
+				BC7143B11B3257600014AEA7 /* 2-550x309.jpg */,
 				BC7143941B3257150014AEA7 /* Images.xcassets */,
 				BC7143891B3257150014AEA7 /* Supporting Files */,
 			);
@@ -220,6 +228,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC7143B21B3257600014AEA7 /* 2-550x309.jpg in Resources */,
 				BC71438D1B3257150014AEA7 /* InfoPlist.strings in Resources */,
 				BC7143951B3257150014AEA7 /* Images.xcassets in Resources */,
 			);
@@ -240,6 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC7143B51B3257790014AEA7 /* KGRootViewController.m in Sources */,
 				BC7143931B3257150014AEA7 /* KGAppDelegate.m in Sources */,
 				BC71438F1B3257150014AEA7 /* main.m in Sources */,
 			);
